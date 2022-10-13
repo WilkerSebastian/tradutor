@@ -6,16 +6,12 @@ const server = express()
 
 server.get("/" , (req , res) => {
 
-    res.status(220).json(`
-    
-        {
+    res.status(220).json({
 
-            "ip": "${req.ip}"
+            "ip": req.ip,
             "teste": "deu certo!"
 
-        }
-    
-    `)
+        })
 
 })
 

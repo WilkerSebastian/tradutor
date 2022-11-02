@@ -1,7 +1,7 @@
 {
   "name": "tradutor",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Tradutor</h1>",
   "main": "index.js",
   "scripts": {
     "start": "set VIEW=false&& ts-node ./src/index.ts",
@@ -25,5 +25,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilkerSebastian/tradutor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WilkerSebastian/tradutor/issues"
+  },
+  "homepage": "https://github.com/WilkerSebastian/tradutor#readme"
 }

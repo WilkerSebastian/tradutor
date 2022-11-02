@@ -9,6 +9,17 @@ const PORT = Number(process.env.PORT) || 80
 
 const app = express()
 
+app.get("/" , (req , res) => {
+
+    return res.status(200).json({
+
+        author: "Wilker Sebastian Afonso Pereira",
+        repository: "https://github.com/WilkerSebastian/tradutor"
+
+    })
+
+})
+
 app.get("/traduzir", async (req, res) => {
 
     const { text, lang } = req.query
